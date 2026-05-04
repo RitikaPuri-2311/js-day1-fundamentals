@@ -38,7 +38,7 @@ let y = null; // will show null because we se it "empty"/ stadalone value
 
 let marks= "25"
 //console.log(marks)
-console.log(typeof marks)
+//console.log(typeof marks)
 
 let valueInNumber= Number(marks)
 //console.log(typeof valueInNumber)
