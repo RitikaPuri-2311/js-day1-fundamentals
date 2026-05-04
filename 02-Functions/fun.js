@@ -76,7 +76,7 @@ morningRoutine(() => console.log("Exercise"));
 
 
 //returns a function
-const greeter = (language) => {
+/*const greeter = (language) => {
   return (name) => {
     if(language === "hindi") {
       console.log(`Namaste ${name}! `);
@@ -92,7 +92,36 @@ const englishGreet = greeter("english");
 hindiGreet("Ritika");  // "Namaste Ritika! "
 englishGreet("Ritika"); // "Hello Ritika!"
 
-//IIFE
+//IIFE Immediately Invoked Function Expression
+//A function that runs itself the moment it is created!
 (function() {
   console.log("Hello");
-})();
+})(); */
+
+//task 1
+/*function checkAge(age) {
+  return (age > 18) ? true : confirm('Did parents allow you?');
+}
+checkAge(22);*/
+
+//task 2
+// function min(num1, num2) {
+//   return num1 < num2 ? console.log(num1) : console.log(num2);
+// }
+// min(2, 5);
+// min(3, -1);
+// min(1, 1);
+
+//task 3
+function pow(x, n) {
+  let result = x;
+
+  for (let i = 1; i < n; i++) {
+    result = result * x;
+  }
+
+  return result; 
+}
+console.log(pow(3, 2)); // 9
+console.log(pow(3, 3)); // 27
+console.log(pow(1, 100)); // 1

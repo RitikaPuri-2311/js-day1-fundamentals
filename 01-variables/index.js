@@ -14,6 +14,16 @@ const city = "Indore"
 //console.table([name,score,city]);
 //use to print multiple values
 
+// task 1
+let admin, namee;
+namee = "john";
+admin = namee;
+console.log(admin);
+
+//task 2
+const planetName = "Earth";
+let currentUserName = "Ritika";
+
 /* The Primitive types */
 const a = "Riti"
 const b = 22;
@@ -94,3 +104,4 @@ const message = `
   Subject: ${subject}
 `;
 console.log(message);
+
