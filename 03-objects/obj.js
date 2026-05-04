@@ -83,3 +83,36 @@ console.log(sName); // "Ritika"
 console.log(sAge);  // 22
 console.log(city);  // "Indore"
 
+// Nested Destructing
+
+const profile = {
+  name: "Ritika",
+  address: {
+    city: "Indore",
+    pin: 452001,
+  },
+};
+ 
+// Go inside the nested object
+const {
+  name: profileName,
+  address: { city: profileCity, pin },
+} = profile;
+ 
+console.log(profileName); // "Ritika"
+console.log(profileCity); // "Indore"
+console.log(pin);         // 452001
+ 
+ 
+//RENAME DURING DESTRUCTURING
+ 
+const person = {
+  name: "Ritika",
+  age: 22,
+};
+ 
+// Rename name → userName, age → userAge
+const { name: userName, age: userAge } = person;
+ 
+console.log(userName); // "Ritika"
+console.log(userAge);  // 22
