@@ -1,4 +1,18 @@
 "use strict"
+//array can work as both queue and stack
+
+let fruits = ["apple", "orange", "kiwi"];
+fruits.shift();
+console.log(fruits);
+fruits.pop();
+console.log(fruits);
+fruits.unshift("apple");
+console.log(fruits);
+fruits.push("mango", "watermelon");
+fruits.unshift("Pineapple");
+console.log(fruits);
+
+
 const nums = [1, 2, 3, 4, 5];
 
 // map → transform each element
